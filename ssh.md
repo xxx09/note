@@ -30,15 +30,6 @@ export LD_LIBRARY_PATH="/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:${LD_LIB
 `source ~/.bashrc`
 
 
-# github key
-
-# github key
-# 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
-
-# 20250929 github key
-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
-
-
 方式二：将令牌嵌入远程URL（一劳永逸）
 这种方法会将令牌直接写入仓库的远程地址配置，之后推送就无需再输入令牌了。
 git remote set-url origin https://<your_token>@github.com/<username>/<repository>.git
