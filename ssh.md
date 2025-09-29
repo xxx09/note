@@ -31,4 +31,4 @@ export LD_LIBRARY_PATH="/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:${LD_LIB
 
 
 github key
-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
+# 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
