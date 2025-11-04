@@ -9,3 +9,7 @@
 # 3. sim2sim
 - 训练mirax3起身时，sim2sim部署遇到问题，isaacgym中能起身，mujoco中则无法实现；
 - - 仔细比对mujoco和isaacgym中参数的差异；发现是hip_pitch关节的特性不一致，导致isaacgym中能起身，mujoco中则不行；修改isaacgym中aramature，damping和friction【最重要】；增大关节friction会导致isaacgym中与mujoco相似，但并非完全一致；
+
+# motion traking
+-- 力矩的最大值
+-- 系统延迟，尤其是如果有部分是谐波电机
